@@ -4,9 +4,6 @@ import joblib as jb
 import streamlit as st
 # loading the model
 model  =jb.load(model.joblib)
-with open('columns.json','r') as column:
-    col = json.load(column)
-
 # Title and welcome message
 st.title('Welcome to AccessLink!')
 st.subheader('Predicting Financial Inclusion in Africa')
