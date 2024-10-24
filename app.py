@@ -3,10 +3,8 @@ import numpy as np
 import joblib as jb
 import streamlit as st
 # loading the model
-model_path = r'C:\\Users\\user\\Desktop\\streamlit\\streamlit_version2\\model.joblib'
-model  =jb.load(model_path)
-file = r'C:\\Users\\user\\Desktop\\streamlit\\streamlit_version2\\columns.json'
-with open(file,'r') as column:
+model  =jb.load(model.joblib)
+with open('columns.json','r') as column:
     col = json.load(column)
 
 # Title and welcome message
