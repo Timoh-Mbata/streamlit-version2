@@ -1,0 +1,16 @@
+# Core Dependencies
+streamlit==1.23.0        # Streamlit for the app
+pandas==2.0.1            # Data handling
+numpy==1.24.3            # Numerical operations
+scikit-learn==1.2.2      # Machine learning models
+joblib==1.3.0            # Loading models saved with joblib
+matplotlib==3.7.1        # Visualization
+seaborn==0.12.2          # Statistical data visualization
+
+# Optional (only if you need these)
+tensorflow==2.13.0       # For neural network models (optional)
+plotly==5.10.0           # For interactive plots (optional)
+altair==5.0.1            # For interactive visualizations (optional)
+SQLAlchemy==2.0.15       # For SQL connections (optional)
+
+# Any additional libraries specific to your project

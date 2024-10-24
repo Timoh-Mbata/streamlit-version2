@@ -1,0 +1,57 @@
+{
+    "locations": [
+        "Rural",
+        "Urban"
+    ],
+    "country": [
+        "Kenya",
+        "Rwanda",
+        "Tanzania",
+        "Uganda"
+    ],
+    "job type": [
+        "Self employed",
+        "Government Dependent",
+        "Formally employed Private",
+        "Informally employed",
+        "Formally employed Government",
+        "Farming and Fishing",
+        "Remittance Dependent",
+        "Other Income",
+        "Dont Know/Refuse to answer",
+        "No Income"
+    ],
+    "gender": [
+        "Female",
+        "Male"
+    ],
+    "maritalStatus": [
+        "Married/Living together",
+        "Widowed",
+        "Single/Never Married",
+        "Divorced/Seperated",
+        "Dont know"
+    ],
+    "education_level": [
+        "Secondary education",
+        "No formal education",
+        "Vocational/Specialised training",
+        "Primary education",
+        "Tertiary education",
+        "Other/Dont know/RTA"
+    ],
+    "columns": [
+        "country",
+        "location_type",
+        "cellphone_access",
+        "household_size",
+        "gender_of_respondent",
+        "marital_status",
+        "education_level",
+        "job_type",
+        "EPI",
+        "SSI",
+        "SOCIAL_ECONOMIC_STATUS",
+        "age_group"
+    ]
+}
